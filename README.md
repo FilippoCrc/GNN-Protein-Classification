@@ -44,7 +44,7 @@ This solution tackles graph classification by learning discriminative representa
     
 The system is highly configurable through command-line arguments, allowing for easy experimentation with different GNN types, number of layers, embedding dimensions, dropout rates, loss functions, and other hyperparameters. Training progress, including loss and accuracy, is logged and can be visualized.
 
-# Test the model (it uses the best model for each dataset)
+# Test the model
 ## For dataset A
 ```bash
 python main.py --test_path <path_to_test.json.gz> --gnn "gin-virtual" --emb_dim 300 --num_layer 5
