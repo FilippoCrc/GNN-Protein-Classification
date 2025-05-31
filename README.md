@@ -1,5 +1,5 @@
-
-**Explanation of the Teaser Diagram:**
+#GNN-Protein-Classification
+**Teaser Diagram:**
 The process begins with an input graph, which is preprocessed (e.g., node features are initialized). This graph is then fed into a GNN backbone, which can consist of layers like GIN or GCN, potentially incorporating a virtual node for global context, edge dropout for regularization, and batch normalization. After several GNN layers, node embeddings are produced. These node embeddings are aggregated using a graph pooling mechanism (such as mean, sum, max, or attention pooling) to create a single vector representation for the entire graph. This graph embedding is then passed through a classifier (typically a linear layer) to predict the final class label. The model is trained using one of several available loss functions, including Cross-Entropy (CE), Generalized Cross-Entropy (GCE), Symmetric Cross-Entropy (SCE), or Graph Centroid Outlier Discounting (GCOD).
 This repository contains a PyTorch-based solution for graph classification tasks using Graph Neural Networks (GNNs). The framework is designed to be flexible, supporting various GNN architectures, loss functions, and training configurations.
 ![Editor _ Mermaid Chart-2025-05-31-150612](https://github.com/user-attachments/assets/cd54ec0d-a56e-4caa-b3d6-36c4079741d6)
