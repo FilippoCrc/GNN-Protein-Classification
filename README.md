@@ -45,7 +45,7 @@ This solution tackles graph classification by learning discriminative representa
     
 The system is highly configurable through command-line arguments, allowing for easy experimentation with different GNN types, number of layers, embedding dimensions, dropout rates, loss functions, and other hyperparameters. Training progress, including loss and accuracy, is logged and can be visualized.
 
-# Parameter used for each dataset
+# Parameters used for each dataset
 ## For dataset A
 gin-virtual / noisy cross entropy loss / 0.001 lr / neuron drop ratio 0.5 / 300 embeded dimension / 5 layers / 200 epochs / 32 batch size / scheduler = ReduceLRonPlateau
 
