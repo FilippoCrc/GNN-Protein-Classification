@@ -7,7 +7,7 @@ This repository contains a PyTorch-based solution for graph classification tasks
 
 ## Overview of the Method
 
-This solution tackles graph classification by learning discriminative representations of graph structures using Graph Neural Networks (GNNs). The core methodology involves several key stages:
+This solution tackles graph classification by learning discriminative representations of graph structures using Graph Neural Networks (we mostly used gin with virtual node). The core methodology involves several key stages:
 
 1.  **Data Loading and Preprocessing:**
     *   Graphs are loaded from `json.gz` files, each containing edge indices, edge attributes (if any), number of nodes, and a target label.
@@ -43,6 +43,19 @@ This solution tackles graph classification by learning discriminative representa
   
     
 The system is highly configurable through command-line arguments, allowing for easy experimentation with different GNN types, number of layers, embedding dimensions, dropout rates, loss functions, and other hyperparameters. Training progress, including loss and accuracy, is logged and can be visualized.
+
+# Parameter used for each dataset
+## For dataset A
+gin-virtual / noisy cross entropy loss / 0.001 lr / neuron drop ratio 0.5 / 300 embeded dimension / 5 layers / 200 epochs / 32 batch size / scheduler = ReduceLRonPlateau
+
+## For dataset B
+gin / symmetric cross entropy loss / 0.003 / alpha 0.4 / beta 0.8 / neuron drop ratio 0.6 / 200 embeded dimension / 4 layers / 150 epochs / 32 batch size / scheduler = ReduceLRonPlateau
+
+## For dataset C 
+gin-virtual / noisy cross entropy loss / 0.0025 lr / neuron drop ratio 0.5 / 300 embeded dimension / 5 layers / 200 epochs / 32 batch size / scheduler = ReduceLRonPlateau
+
+## For dataset D
+gin / symmetric cross entropy loss / 0.005 lr / alpha 0.4 / beta 0.8 / neuron drop ration 0.6 / embeded dimension 200 / 3 layers / 200 epochs / 64 batch size / scheduler = ReduceLRonPlateau 
 
 # Test the model
 ## For dataset A
