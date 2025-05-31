@@ -1,6 +1,8 @@
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
 
 class GeneralizedCrossEntropy(nn.Module):
     def __init__(self, q=0.7):
@@ -9,7 +11,7 @@ class GeneralizedCrossEntropy(nn.Module):
         self.q = q
 
     def forward(self, logits, targets):
-        probs = F.softmax(logits, dim=1)
+        probs = torch.softmax(logits, dim=1)
         target_probs = probs[torch.arange(targets.size(0)), targets]
         loss = (1 - (target_probs ** self.q)) / self.q
         return loss.mean()
@@ -29,22 +31,7 @@ class SymmetricCrossEntropy(nn.Module):
 
         loss = self.alpha * ce + self.beta * rce
         return loss
-
-class NoisyCrossEntropyLoss(torch.nn.Module):
-    def __init__(self, p_noisy):
-        super().__init__()
-        self.p = p_noisy
-        self.ce = torch.nn.CrossEntropyLoss(reduction='none')
-
-    def forward(self, logits, targets):
-        losses = self.ce(logits, targets)
-        weights = (1 - self.p) + self.p * (1 - torch.nn.functional.one_hot(targets, num_classes=logits.size(1)).float().sum(dim=1))
-        return (losses * weights).mean()
     
-
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 
 class GCODLoss(nn.Module):
     """
@@ -53,7 +40,7 @@ class GCODLoss(nn.Module):
     The model parameters (theta) are updated using L1 + L3.
     The sample-specific parameters (u) are updated using L2.
     """
-    def init(self, num_classes, alpha_train=2, lambda_r=0.1): # Added lambda_r
+    def __init__(self, num_classes=6, alpha_train=0.01, lambda_r=0.1): # Added lambda_r
         """
         Args:
             num_classes (int): Number of classes.
@@ -61,7 +48,7 @@ class GCODLoss(nn.Module):
                                  feedback term in L1.
             lambda_r (float): Coefficient for the u regularization term in L2.
         """
-        super(GCODLoss, self).init()
+        super(GCODLoss, self).__init__()
         self.num_classes = num_classes
         self.alpha_train = alpha_train
         self.lambda_r = lambda_r # Store lambda_r
@@ -174,7 +161,7 @@ class GCODLoss(nn.Module):
         # F.kl_div expects input (L_log_probs) as log-probabilities and target (target_probs_for_kl) as probabilities.
         # reduction='mean' averages the loss over all elements in the batch.
         # log_target=False means target_probs_for_kl are probabilities, not log-probabilities.
-        kl_div = F.kl_div(L_log_probs, target_probs_for_kl, reduction='mean', log_target=False)
+        kl_div = F.kl_div(L_log_probs, target_probs_for_kl, reduction='batchmean', log_target=False)
 
         L3 = l3_coeff * kl_div
         return L3
@@ -206,3 +193,15 @@ class GCODLoss(nn.Module):
         total_loss_for_theta = calculated_L1 + calculated_L3
 
         return total_loss_for_theta, calculated_L1, calculated_L2, calculated_L3
+    
+
+class NoisyCrossEntropyLoss(torch.nn.Module):
+    def __init__(self, p_noisy = 0.2):
+        super().__init__()
+        self.p = p_noisy
+        self.ce = torch.nn.CrossEntropyLoss(reduction='none')
+
+    def forward(self, logits, targets):
+        losses = self.ce(logits, targets)
+        weights = (1 - self.p) + self.p * (1 - torch.nn.functional.one_hot(targets, num_classes=logits.size(1)).float().sum(dim=1))
+        return (losses * weights).mean()
