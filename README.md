@@ -37,5 +37,3 @@ This solution tackles graph classification by learning discriminative representa
 6.  **Evaluation and Prediction:**
     *   The trained model is evaluated on a test set using metrics like accuracy and F1-score.
     *   Predictions for the test set are saved in a CSV format suitable for submission.
-
-The system is highly configurable through command-line arguments, allowing for easy experimentation with different GNN types, number of layers, embedding dimensions, dropout rates, loss functions, and other hyperparameters. Training progress, including loss and accuracy, is logged and can be visualized.
