@@ -55,7 +55,7 @@ gin / symmetric cross entropy loss / 0.003 / alpha 0.4 / beta 0.8 / neuron drop 
 gin-virtual / noisy cross entropy loss / 0.0025 lr / neuron drop ratio 0.5 / 300 embeded dimension / 5 layers / 200 epochs / 32 batch size / scheduler = ReduceLRonPlateau
 
 ## For dataset D
-gin / symmetric cross entropy loss / 0.005 lr / alpha 0.4 / beta 0.8 / neuron drop ration 0.6 / embeded dimension 200 / 3 layers / 200 epochs / 64 batch size / scheduler = ReduceLRonPlateau 
+gin / symmetric cross entropy loss / 0.005 lr / alpha 0.3 / beta 1 / neuron drop ration 0.6 / embeded dimension 200 / 3 layers / 200 epochs / 64 batch size / scheduler = ReduceLRonPlateau 
 
 # Test the model
 ## For dataset A
