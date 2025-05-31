@@ -634,3 +634,5 @@ Iterating eval graphs: 100%|█████████████████|
 Epoch 151 - Training Loss: 0.2533, Training Accuracy: 0.8848, Training F1: 0.8689, Validation Loss: 0.3283, Validation Accuracy: 0.8451, Validation F1: 0.8300
 Iterating training graphs: 100%|███████████| 192/192 [00:34<00:00,  5.50batch/s]
 Iterating eval graphs:  85%|████████████▋  | 163/192 [00:22<00:04,  7.08batch/s]
+
+Kaggle Bug
