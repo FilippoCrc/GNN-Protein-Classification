@@ -265,4 +265,5 @@ Iterating eval graphs: 100%|█████████████████|
 Epoch 61 - Training Loss: 0.8412, Training Accuracy: 0.7182, Training F1: 0.7085, Validation Loss: 0.8010, Validation Accuracy: 0.7105, Validation F1: 0.7006
 Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
 Iterating training graphs: 100%|███████████| 282/282 [00:52<00:00,  5.36batch/s]
-Iterating eval graphs: 100%|█████████
+
+Kaggle Bug
