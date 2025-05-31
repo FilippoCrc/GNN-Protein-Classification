@@ -51,7 +51,7 @@ python main.py --test_path <path_to_test.json.gz> --gnn "gin-virtual" --emb_dim 
 ```
 ## For dataset B
 ```bash
-python main.py --test_path <path_to_test.json.gz> --gnn gin --emb_dim 200 --num_layer 4
+python main.py --test_path <path_to_test.json.gz> --gnn "gin" --emb_dim 200 --num_layer 4
 ```
 ## For dataset C
 ```bash
@@ -59,5 +59,5 @@ python main.py --test_path <path_to_test.json.gz> --gnn "gin-virtual" --emb_dim 
 ```
 ## For dataset D
 ```bash
-python main.py --test_path <path_to_test.json.gz> --gnn gin --emb_dim 200 --num_layer 3
+python main.py --test_path <path_to_test.json.gz> --gnn "gin" --emb_dim 200 --num_layer 3
 ```
