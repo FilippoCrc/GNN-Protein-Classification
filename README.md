@@ -1,18 +1,4 @@
 
-This repository contains a PyTorch-based solution for graph classification tasks using Graph Neural Networks (GNNs). The framework is designed to be flexible, supporting various GNN architectures, loss functions, and training configurations.
-
-+---------------------+ +----------------------+ +---------------------+ +-----------------------+ +-------------------+ +------------------+
-| Input Graph | --> | Data Preprocessing | --> | GNN Backbone | --> | Graph Pooling | --> | Classifier | --> | Predicted Label |
-| (Nodes, Edges, Attr)| | (e.g., Init X=zeros) | | (GIN/GCN, Virtual_Node| --> | (Mean/Sum/Max/Attn) | | (e.g., Linear Layer)| | (e.g., Class 0-5)|
-+---------------------+ +----------------------+ | Edge Dropout, BN) | +-----------------------+ +-------------------+ +------------------+
-+---------------------+
-^
-|
-+---------------------+
-| Training & Loss Fns |
-| (CE, GCE, SCE, GCOD)|
-+---------------------+
-
 **Explanation of the Teaser Diagram:**
 The process begins with an input graph, which is preprocessed (e.g., node features are initialized). This graph is then fed into a GNN backbone, which can consist of layers like GIN or GCN, potentially incorporating a virtual node for global context, edge dropout for regularization, and batch normalization. After several GNN layers, node embeddings are produced. These node embeddings are aggregated using a graph pooling mechanism (such as mean, sum, max, or attention pooling) to create a single vector representation for the entire graph. This graph embedding is then passed through a classifier (typically a linear layer) to predict the final class label. The model is trained using one of several available loss functions, including Cross-Entropy (CE), Generalized Cross-Entropy (GCE), Symmetric Cross-Entropy (SCE), or Graph Centroid Outlier Discounting (GCOD).
 
@@ -51,5 +37,3 @@ This solution tackles graph classification by learning discriminative representa
 6.  **Evaluation and Prediction:**
     *   The trained model is evaluated on a test set using metrics like accuracy and F1-score.
     *   Predictions for the test set are saved in a CSV format suitable for submission.
-
-The system is highly configurable through command-line arguments, allowing for easy experimentation with different GNN types, number of layers, embedding dimensions, dropout rates, loss functions, and other hyperparameters. Training progress, including loss and accuracy, is logged and can be visualized.
