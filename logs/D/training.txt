@@ -1,0 +1,503 @@
+Iterating training graphs: 100%|███████████| 129/129 [00:35<00:00,  3.68batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.35batch/s]
+Epoch 1 - Training Loss: 1.5428, Training Accuracy: 0.3065, Training F1: 0.2680, Validation Loss: 2.1425, Validation Accuracy: 0.3045, Validation F1: 0.2671
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.29batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.34batch/s]
+Epoch 2 - Training Loss: 1.3887, Training Accuracy: 0.3340, Training F1: 0.2351, Validation Loss: 1.7636, Validation Accuracy: 0.3225, Validation F1: 0.2235
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.30batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 3 - Training Loss: 1.3227, Training Accuracy: 0.3264, Training F1: 0.2529, Validation Loss: 1.7226, Validation Accuracy: 0.3025, Validation F1: 0.2245
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.24batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 4 - Training Loss: 1.2767, Training Accuracy: 0.3596, Training F1: 0.3261, Validation Loss: 1.5133, Validation Accuracy: 0.3745, Validation F1: 0.3414
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 5 - Training Loss: 1.2287, Training Accuracy: 0.2743, Training F1: 0.2330, Validation Loss: 2.2266, Validation Accuracy: 0.2962, Validation F1: 0.2528
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 6 - Training Loss: 1.1791, Training Accuracy: 0.3645, Training F1: 0.3226, Validation Loss: 1.6073, Validation Accuracy: 0.3765, Validation F1: 0.3365
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 7 - Training Loss: 1.1134, Training Accuracy: 0.4874, Training F1: 0.4329, Validation Loss: 1.2954, Validation Accuracy: 0.4815, Validation F1: 0.4279
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 8 - Training Loss: 1.0603, Training Accuracy: 0.4582, Training F1: 0.3961, Validation Loss: 1.8353, Validation Accuracy: 0.4587, Validation F1: 0.3947
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 9 - Training Loss: 0.9477, Training Accuracy: 0.4670, Training F1: 0.3818, Validation Loss: 1.4967, Validation Accuracy: 0.4703, Validation F1: 0.3843
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 10 - Training Loss: 0.8387, Training Accuracy: 0.3399, Training F1: 0.2489, Validation Loss: 2.0301, Validation Accuracy: 0.3526, Validation F1: 0.2620
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 11 - Training Loss: 0.7698, Training Accuracy: 0.4296, Training F1: 0.3576, Validation Loss: 1.6278, Validation Accuracy: 0.4261, Validation F1: 0.3529
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 12 - Training Loss: 0.7166, Training Accuracy: 0.6418, Training F1: 0.5783, Validation Loss: 0.8302, Validation Accuracy: 0.6420, Validation F1: 0.5846
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 13 - Training Loss: 0.6575, Training Accuracy: 0.4645, Training F1: 0.4274, Validation Loss: 1.3096, Validation Accuracy: 0.4514, Validation F1: 0.4190
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.30batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 14 - Training Loss: 0.6204, Training Accuracy: 0.4015, Training F1: 0.3288, Validation Loss: 2.0951, Validation Accuracy: 0.3906, Validation F1: 0.3190
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.35batch/s]
+Epoch 15 - Training Loss: 0.5922, Training Accuracy: 0.6165, Training F1: 0.5338, Validation Loss: 0.8633, Validation Accuracy: 0.6158, Validation F1: 0.5325
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 16 - Training Loss: 0.5701, Training Accuracy: 0.5531, Training F1: 0.4939, Validation Loss: 1.2248, Validation Accuracy: 0.5535, Validation F1: 0.4911
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 17 - Training Loss: 0.5282, Training Accuracy: 0.5711, Training F1: 0.5310, Validation Loss: 1.1545, Validation Accuracy: 0.5550, Validation F1: 0.5135
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 18 - Training Loss: 0.5155, Training Accuracy: 0.4814, Training F1: 0.4350, Validation Loss: 1.5401, Validation Accuracy: 0.4664, Validation F1: 0.4180
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 19 - Training Loss: 0.5118, Training Accuracy: 0.6958, Training F1: 0.6144, Validation Loss: 0.6741, Validation Accuracy: 0.6848, Validation F1: 0.6074
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.86batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 20 - Training Loss: 0.4776, Training Accuracy: 0.3855, Training F1: 0.3353, Validation Loss: 2.2714, Validation Accuracy: 0.3701, Validation F1: 0.3184
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.86batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.45batch/s]
+Epoch 21 - Training Loss: 0.4496, Training Accuracy: 0.6539, Training F1: 0.5896, Validation Loss: 0.7752, Validation Accuracy: 0.6474, Validation F1: 0.5864
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.86batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 22 - Training Loss: 0.4581, Training Accuracy: 0.5680, Training F1: 0.4978, Validation Loss: 1.1157, Validation Accuracy: 0.5759, Validation F1: 0.5090
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 23 - Training Loss: 0.4291, Training Accuracy: 0.6164, Training F1: 0.6274, Validation Loss: 0.9192, Validation Accuracy: 0.6021, Validation F1: 0.6136
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Checkpoint saved at /kaggle/working/checkpoints/test.json/model_test.json_epoch_24.pth
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 24 - Training Loss: 0.4292, Training Accuracy: 0.6411, Training F1: 0.5838, Validation Loss: 0.8915, Validation Accuracy: 0.6362, Validation F1: 0.5849
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.86batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 25 - Training Loss: 0.4047, Training Accuracy: 0.7060, Training F1: 0.6999, Validation Loss: 0.5751, Validation Accuracy: 0.6999, Validation F1: 0.6941
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 26 - Training Loss: 0.4064, Training Accuracy: 0.4070, Training F1: 0.3286, Validation Loss: 3.3268, Validation Accuracy: 0.4222, Validation F1: 0.3495
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 27 - Training Loss: 0.4048, Training Accuracy: 0.6452, Training F1: 0.6257, Validation Loss: 0.7686, Validation Accuracy: 0.6376, Validation F1: 0.6172
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 28 - Training Loss: 0.3910, Training Accuracy: 0.7215, Training F1: 0.6556, Validation Loss: 0.5596, Validation Accuracy: 0.7325, Validation F1: 0.6691
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 29 - Training Loss: 0.3648, Training Accuracy: 0.6812, Training F1: 0.6215, Validation Loss: 0.7095, Validation Accuracy: 0.6834, Validation F1: 0.6234
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 30 - Training Loss: 0.3681, Training Accuracy: 0.6936, Training F1: 0.6741, Validation Loss: 0.6645, Validation Accuracy: 0.6994, Validation F1: 0.6798
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 31 - Training Loss: 0.3767, Training Accuracy: 0.6279, Training F1: 0.6059, Validation Loss: 0.9781, Validation Accuracy: 0.6167, Validation F1: 0.5938
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 32 - Training Loss: 0.3457, Training Accuracy: 0.7259, Training F1: 0.6685, Validation Loss: 0.5593, Validation Accuracy: 0.7310, Validation F1: 0.6760
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 33 - Training Loss: 0.3605, Training Accuracy: 0.7039, Training F1: 0.6880, Validation Loss: 0.5518, Validation Accuracy: 0.7014, Validation F1: 0.6875
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 34 - Training Loss: 0.3382, Training Accuracy: 0.7402, Training F1: 0.6754, Validation Loss: 0.5210, Validation Accuracy: 0.7412, Validation F1: 0.6783
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 35 - Training Loss: 0.3583, Training Accuracy: 0.7021, Training F1: 0.6456, Validation Loss: 0.5075, Validation Accuracy: 0.6994, Validation F1: 0.6470
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 36 - Training Loss: 0.3304, Training Accuracy: 0.6840, Training F1: 0.6424, Validation Loss: 0.7758, Validation Accuracy: 0.6999, Validation F1: 0.6590
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.34batch/s]
+Epoch 37 - Training Loss: 0.3139, Training Accuracy: 0.7473, Training F1: 0.6844, Validation Loss: 0.4950, Validation Accuracy: 0.7529, Validation F1: 0.6958
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 38 - Training Loss: 0.3114, Training Accuracy: 0.7267, Training F1: 0.6617, Validation Loss: 0.5815, Validation Accuracy: 0.7354, Validation F1: 0.6724
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 39 - Training Loss: 0.3290, Training Accuracy: 0.6849, Training F1: 0.6635, Validation Loss: 0.6116, Validation Accuracy: 0.6727, Validation F1: 0.6510
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.36batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 40 - Training Loss: 0.3162, Training Accuracy: 0.6637, Training F1: 0.6767, Validation Loss: 0.7216, Validation Accuracy: 0.6493, Validation F1: 0.6634
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 41 - Training Loss: 0.3022, Training Accuracy: 0.6843, Training F1: 0.6538, Validation Loss: 0.7371, Validation Accuracy: 0.6780, Validation F1: 0.6534
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 42 - Training Loss: 0.3003, Training Accuracy: 0.7113, Training F1: 0.6767, Validation Loss: 0.6242, Validation Accuracy: 0.7232, Validation F1: 0.6909
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 43 - Training Loss: 0.3222, Training Accuracy: 0.7376, Training F1: 0.7236, Validation Loss: 0.5879, Validation Accuracy: 0.7383, Validation F1: 0.7238
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.45batch/s]
+Epoch 44 - Training Loss: 0.3025, Training Accuracy: 0.7461, Training F1: 0.7347, Validation Loss: 0.5452, Validation Accuracy: 0.7490, Validation F1: 0.7391
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.78batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 45 - Training Loss: 0.3068, Training Accuracy: 0.7547, Training F1: 0.7325, Validation Loss: 0.4935, Validation Accuracy: 0.7398, Validation F1: 0.7161
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 46 - Training Loss: 0.2936, Training Accuracy: 0.7483, Training F1: 0.6887, Validation Loss: 0.5255, Validation Accuracy: 0.7437, Validation F1: 0.6879
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 47 - Training Loss: 0.2789, Training Accuracy: 0.7512, Training F1: 0.6810, Validation Loss: 0.5129, Validation Accuracy: 0.7417, Validation F1: 0.6716
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Checkpoint saved at /kaggle/working/checkpoints/test.json/model_test.json_epoch_48.pth
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 48 - Training Loss: 0.3154, Training Accuracy: 0.7534, Training F1: 0.7294, Validation Loss: 0.5006, Validation Accuracy: 0.7412, Validation F1: 0.7166
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 49 - Training Loss: 0.2961, Training Accuracy: 0.7260, Training F1: 0.6609, Validation Loss: 0.5965, Validation Accuracy: 0.7218, Validation F1: 0.6550
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 50 - Training Loss: 0.2745, Training Accuracy: 0.7601, Training F1: 0.7430, Validation Loss: 0.4971, Validation Accuracy: 0.7500, Validation F1: 0.7345
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 51 - Training Loss: 0.2749, Training Accuracy: 0.7575, Training F1: 0.7406, Validation Loss: 0.5128, Validation Accuracy: 0.7510, Validation F1: 0.7326
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 52 - Training Loss: 0.2787, Training Accuracy: 0.7262, Training F1: 0.7038, Validation Loss: 0.6385, Validation Accuracy: 0.7116, Validation F1: 0.6874
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 53 - Training Loss: 0.2987, Training Accuracy: 0.7369, Training F1: 0.7081, Validation Loss: 0.5431, Validation Accuracy: 0.7276, Validation F1: 0.6958
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.34batch/s]
+Epoch 54 - Training Loss: 0.2780, Training Accuracy: 0.6952, Training F1: 0.6415, Validation Loss: 0.6273, Validation Accuracy: 0.7106, Validation F1: 0.6607
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 55 - Training Loss: 0.3045, Training Accuracy: 0.6894, Training F1: 0.6215, Validation Loss: 0.7641, Validation Accuracy: 0.6722, Validation F1: 0.6051
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 56 - Training Loss: 0.2778, Training Accuracy: 0.7529, Training F1: 0.7492, Validation Loss: 0.4698, Validation Accuracy: 0.7461, Validation F1: 0.7419
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.44batch/s]
+Epoch 57 - Training Loss: 0.2670, Training Accuracy: 0.7442, Training F1: 0.7332, Validation Loss: 0.5406, Validation Accuracy: 0.7554, Validation F1: 0.7449
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 58 - Training Loss: 0.2724, Training Accuracy: 0.7720, Training F1: 0.7474, Validation Loss: 0.4417, Validation Accuracy: 0.7782, Validation F1: 0.7543
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.35batch/s]
+Epoch 59 - Training Loss: 0.2759, Training Accuracy: 0.7533, Training F1: 0.7365, Validation Loss: 0.5080, Validation Accuracy: 0.7481, Validation F1: 0.7316
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 60 - Training Loss: 0.2915, Training Accuracy: 0.5850, Training F1: 0.5132, Validation Loss: 1.3642, Validation Accuracy: 0.5749, Validation F1: 0.5022
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 61 - Training Loss: 0.2802, Training Accuracy: 0.7230, Training F1: 0.7072, Validation Loss: 0.6280, Validation Accuracy: 0.7140, Validation F1: 0.7003
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 62 - Training Loss: 0.2782, Training Accuracy: 0.7547, Training F1: 0.7284, Validation Loss: 0.4898, Validation Accuracy: 0.7554, Validation F1: 0.7290
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 63 - Training Loss: 0.2706, Training Accuracy: 0.7678, Training F1: 0.7428, Validation Loss: 0.4510, Validation Accuracy: 0.7656, Validation F1: 0.7404
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 64 - Training Loss: 0.2782, Training Accuracy: 0.7321, Training F1: 0.6891, Validation Loss: 0.6109, Validation Accuracy: 0.7179, Validation F1: 0.6766
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 65 - Training Loss: 0.2726, Training Accuracy: 0.7269, Training F1: 0.6882, Validation Loss: 0.6087, Validation Accuracy: 0.7179, Validation F1: 0.6774
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 66 - Training Loss: 0.2600, Training Accuracy: 0.7611, Training F1: 0.7308, Validation Loss: 0.4696, Validation Accuracy: 0.7597, Validation F1: 0.7253
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 67 - Training Loss: 0.2770, Training Accuracy: 0.7364, Training F1: 0.7332, Validation Loss: 0.5454, Validation Accuracy: 0.7213, Validation F1: 0.7187
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.45batch/s]
+Epoch 68 - Training Loss: 0.2470, Training Accuracy: 0.6832, Training F1: 0.6854, Validation Loss: 0.7699, Validation Accuracy: 0.6605, Validation F1: 0.6643
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 69 - Training Loss: 0.2620, Training Accuracy: 0.7726, Training F1: 0.7419, Validation Loss: 0.4436, Validation Accuracy: 0.7704, Validation F1: 0.7380
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.45batch/s]
+Epoch 70 - Training Loss: 0.2581, Training Accuracy: 0.7608, Training F1: 0.7009, Validation Loss: 0.4723, Validation Accuracy: 0.7505, Validation F1: 0.6892
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.35batch/s]
+Epoch 71 - Training Loss: 0.2474, Training Accuracy: 0.7685, Training F1: 0.7223, Validation Loss: 0.4562, Validation Accuracy: 0.7675, Validation F1: 0.7222
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Checkpoint saved at /kaggle/working/checkpoints/test.json/model_test.json_epoch_72.pth
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 72 - Training Loss: 0.2655, Training Accuracy: 0.7411, Training F1: 0.7238, Validation Loss: 0.6365, Validation Accuracy: 0.7218, Validation F1: 0.7061
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.34batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 73 - Training Loss: 0.2728, Training Accuracy: 0.6999, Training F1: 0.6798, Validation Loss: 0.8111, Validation Accuracy: 0.6741, Validation F1: 0.6542
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 74 - Training Loss: 0.2718, Training Accuracy: 0.7744, Training F1: 0.7525, Validation Loss: 0.4592, Validation Accuracy: 0.7626, Validation F1: 0.7401
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 75 - Training Loss: 0.2805, Training Accuracy: 0.5978, Training F1: 0.5865, Validation Loss: 1.3539, Validation Accuracy: 0.5803, Validation F1: 0.5653
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.25batch/s]
+Epoch 76 - Training Loss: 0.2652, Training Accuracy: 0.7314, Training F1: 0.6759, Validation Loss: 0.5869, Validation Accuracy: 0.7242, Validation F1: 0.6706
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 77 - Training Loss: 0.2490, Training Accuracy: 0.7753, Training F1: 0.7528, Validation Loss: 0.4301, Validation Accuracy: 0.7768, Validation F1: 0.7527
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 78 - Training Loss: 0.2528, Training Accuracy: 0.7445, Training F1: 0.7173, Validation Loss: 0.5311, Validation Accuracy: 0.7310, Validation F1: 0.7029
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.42batch/s]
+Epoch 79 - Training Loss: 0.2516, Training Accuracy: 0.7143, Training F1: 0.6690, Validation Loss: 0.7788, Validation Accuracy: 0.7009, Validation F1: 0.6537
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 80 - Training Loss: 0.2324, Training Accuracy: 0.7867, Training F1: 0.7723, Validation Loss: 0.4044, Validation Accuracy: 0.7797, Validation F1: 0.7637
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 81 - Training Loss: 0.2107, Training Accuracy: 0.7848, Training F1: 0.7659, Validation Loss: 0.4320, Validation Accuracy: 0.7816, Validation F1: 0.7628
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 82 - Training Loss: 0.2083, Training Accuracy: 0.7815, Training F1: 0.7583, Validation Loss: 0.4454, Validation Accuracy: 0.7656, Validation F1: 0.7418
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 83 - Training Loss: 0.2053, Training Accuracy: 0.7896, Training F1: 0.7674, Validation Loss: 0.4216, Validation Accuracy: 0.7763, Validation F1: 0.7524
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.30batch/s]
+Epoch 84 - Training Loss: 0.2103, Training Accuracy: 0.7859, Training F1: 0.7681, Validation Loss: 0.4404, Validation Accuracy: 0.7714, Validation F1: 0.7516
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 85 - Training Loss: 0.2063, Training Accuracy: 0.7974, Training F1: 0.7788, Validation Loss: 0.4159, Validation Accuracy: 0.7845, Validation F1: 0.7631
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 86 - Training Loss: 0.2060, Training Accuracy: 0.7342, Training F1: 0.6942, Validation Loss: 0.4689, Validation Accuracy: 0.7014, Validation F1: 0.6588
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.85batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.35batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 87 - Training Loss: 0.2153, Training Accuracy: 0.7895, Training F1: 0.7725, Validation Loss: 0.4355, Validation Accuracy: 0.7733, Validation F1: 0.7554
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.84batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.39batch/s]
+Epoch 88 - Training Loss: 0.2047, Training Accuracy: 0.7909, Training F1: 0.7673, Validation Loss: 0.4144, Validation Accuracy: 0.7724, Validation F1: 0.7488
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.33batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.30batch/s]
+Epoch 89 - Training Loss: 0.2066, Training Accuracy: 0.7849, Training F1: 0.7526, Validation Loss: 0.4320, Validation Accuracy: 0.7763, Validation F1: 0.7424
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.72batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.22batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.17batch/s]
+Epoch 90 - Training Loss: 0.2121, Training Accuracy: 0.7732, Training F1: 0.7516, Validation Loss: 0.5373, Validation Accuracy: 0.7549, Validation F1: 0.7334
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.74batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.24batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 91 - Training Loss: 0.2157, Training Accuracy: 0.7817, Training F1: 0.7324, Validation Loss: 0.4558, Validation Accuracy: 0.7622, Validation F1: 0.7117
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.80batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.32batch/s]
+Epoch 92 - Training Loss: 0.2052, Training Accuracy: 0.7708, Training F1: 0.7415, Validation Loss: 0.5003, Validation Accuracy: 0.7568, Validation F1: 0.7272
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.40batch/s]
+Epoch 93 - Training Loss: 0.2144, Training Accuracy: 0.7924, Training F1: 0.7806, Validation Loss: 0.4530, Validation Accuracy: 0.7646, Validation F1: 0.7510
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.30batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.30batch/s]
+Epoch 94 - Training Loss: 0.2134, Training Accuracy: 0.7947, Training F1: 0.7873, Validation Loss: 0.4405, Validation Accuracy: 0.7714, Validation F1: 0.7637
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.43batch/s]
+Epoch 95 - Training Loss: 0.2136, Training Accuracy: 0.7951, Training F1: 0.7749, Validation Loss: 0.4499, Validation Accuracy: 0.7733, Validation F1: 0.7517
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.83batch/s]
+Checkpoint saved at /kaggle/working/checkpoints/test.json/model_test.json_epoch_96.pth
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.37batch/s]
+Epoch 96 - Training Loss: 0.2096, Training Accuracy: 0.7636, Training F1: 0.7351, Validation Loss: 0.5686, Validation Accuracy: 0.7490, Validation F1: 0.7223
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.29batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.31batch/s]
+Epoch 97 - Training Loss: 0.2104, Training Accuracy: 0.7871, Training F1: 0.7529, Validation Loss: 0.4611, Validation Accuracy: 0.7612, Validation F1: 0.7227
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.80batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.32batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.32batch/s]
+Epoch 98 - Training Loss: 0.2050, Training Accuracy: 0.7892, Training F1: 0.7775, Validation Loss: 0.4492, Validation Accuracy: 0.7661, Validation F1: 0.7539
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.31batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.41batch/s]
+Epoch 99 - Training Loss: 0.2090, Training Accuracy: 0.7404, Training F1: 0.7215, Validation Loss: 0.7063, Validation Accuracy: 0.7057, Validation F1: 0.6882
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.82batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:29<00:00,  4.30batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.32batch/s]
+Epoch 100 - Training Loss: 0.2012, Training Accuracy: 0.7973, Training F1: 0.7763, Validation Loss: 0.4161, Validation Accuracy: 0.7787, Validation F1: 0.7554
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.76batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.26batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.32batch/s]
+Epoch 101 - Training Loss: 0.2007, Training Accuracy: 0.7724, Training F1: 0.7474, Validation Loss: 0.5198, Validation Accuracy: 0.7515, Validation F1: 0.7254
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.33batch/s]
+Epoch 102 - Training Loss: 0.1876, Training Accuracy: 0.7988, Training F1: 0.7751, Validation Loss: 0.4175, Validation Accuracy: 0.7768, Validation F1: 0.7517
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.30batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 103 - Training Loss: 0.1828, Training Accuracy: 0.8053, Training F1: 0.7881, Validation Loss: 0.4021, Validation Accuracy: 0.7816, Validation F1: 0.7619
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 104 - Training Loss: 0.1792, Training Accuracy: 0.8023, Training F1: 0.7810, Validation Loss: 0.4141, Validation Accuracy: 0.7777, Validation F1: 0.7559
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.29batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.29batch/s]
+Epoch 105 - Training Loss: 0.1784, Training Accuracy: 0.8008, Training F1: 0.7796, Validation Loss: 0.4270, Validation Accuracy: 0.7768, Validation F1: 0.7538
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.80batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.27batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.38batch/s]
+Epoch 106 - Training Loss: 0.1793, Training Accuracy: 0.8027, Training F1: 0.7806, Validation Loss: 0.4285, Validation Accuracy: 0.7802, Validation F1: 0.7566
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.78batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.27batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.34batch/s]
+Epoch 107 - Training Loss: 0.1805, Training Accuracy: 0.8096, Training F1: 0.7990, Validation Loss: 0.4180, Validation Accuracy: 0.7787, Validation F1: 0.7660
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.77batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.27batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 108 - Training Loss: 0.1781, Training Accuracy: 0.8082, Training F1: 0.7978, Validation Loss: 0.4275, Validation Accuracy: 0.7831, Validation F1: 0.7714
+Best model updated and saved at /kaggle/working/checkpoints/model_test.json_best.pth
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.78batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.24batch/s]
+Epoch 109 - Training Loss: 0.1777, Training Accuracy: 0.7964, Training F1: 0.7594, Validation Loss: 0.4217, Validation Accuracy: 0.7724, Validation F1: 0.7314
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.80batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.28batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.31batch/s]
+Epoch 110 - Training Loss: 0.1749, Training Accuracy: 0.8005, Training F1: 0.7722, Validation Loss: 0.4226, Validation Accuracy: 0.7777, Validation F1: 0.7463
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.29batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.36batch/s]
+Epoch 111 - Training Loss: 0.1772, Training Accuracy: 0.8058, Training F1: 0.7919, Validation Loss: 0.4258, Validation Accuracy: 0.7748, Validation F1: 0.7573
+Iterating training graphs: 100%|███████████| 129/129 [00:33<00:00,  3.81batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.23batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.33batch/s]
+Epoch 112 - Training Loss: 0.1819, Training Accuracy: 0.8095, Training F1: 0.7938, Validation Loss: 0.4068, Validation Accuracy: 0.7836, Validation F1: 0.7649
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.76batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.26batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.34batch/s]
+Epoch 113 - Training Loss: 0.1748, Training Accuracy: 0.8114, Training F1: 0.7950, Validation Loss: 0.4360, Validation Accuracy: 0.7811, Validation F1: 0.7602
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.27batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.33batch/s]
+Epoch 114 - Training Loss: 0.1777, Training Accuracy: 0.8130, Training F1: 0.8015, Validation Loss: 0.4387, Validation Accuracy: 0.7743, Validation F1: 0.7601
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.79batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.27batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.33batch/s]
+Epoch 115 - Training Loss: 0.1697, Training Accuracy: 0.8047, Training F1: 0.7843, Validation Loss: 0.4461, Validation Accuracy: 0.7733, Validation F1: 0.7464
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.76batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.23batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.28batch/s]
+Epoch 116 - Training Loss: 0.1717, Training Accuracy: 0.8096, Training F1: 0.7910, Validation Loss: 0.4370, Validation Accuracy: 0.7733, Validation F1: 0.7524
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.73batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.20batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.28batch/s]
+Epoch 117 - Training Loss: 0.1764, Training Accuracy: 0.8024, Training F1: 0.7796, Validation Loss: 0.4413, Validation Accuracy: 0.7699, Validation F1: 0.7429
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.74batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.21batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.31batch/s]
+Epoch 118 - Training Loss: 0.1721, Training Accuracy: 0.8045, Training F1: 0.7858, Validation Loss: 0.4693, Validation Accuracy: 0.7724, Validation F1: 0.7520
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.76batch/s]
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.19batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.20batch/s]
+Epoch 119 - Training Loss: 0.1752, Training Accuracy: 0.8164, Training F1: 0.8051, Validation Loss: 0.4327, Validation Accuracy: 0.7743, Validation F1: 0.7622
+Iterating training graphs: 100%|███████████| 129/129 [00:34<00:00,  3.74batch/s]
+Checkpoint saved at /kaggle/working/checkpoints/test.json/model_test.json_epoch_120.pth
+Iterating eval graphs: 100%|███████████████| 129/129 [00:30<00:00,  4.21batch/s]
+Iterating eval graphs: 100%|█████████████████| 33/33 [00:07<00:00,  4.29batch/s]
+Epoch 120 - Training Loss: 0.1707, Training Accuracy: 0.8085, Training F1: 0.7893, Validation Loss: 0.4202, Validation Accuracy: 0.7777, Validation F1: 0.7569
+Iterating eval graphs: 100%|█████████████████| 36/36 [00:08<00:00,  4.38batch/s]
+Predictions saved to /kaggle/working/submission/testset_test.json.csv
